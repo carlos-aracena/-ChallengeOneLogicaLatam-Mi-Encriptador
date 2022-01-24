@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+.titulo{
+  color: #3498DB;
+  -webkit-text-stroke: 1px black;
+  padding: 1em 1em 1em 1em;
+  width: 40vw;
+  height: 20vw;
+  margin: auto
+  
+}
+body {
+  height: 100vh;
+  background-image: url(https://i.ibb.co/k30NFTs/mardeltuyu.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+align-items: center;
+justify-content: center;}
+
+.main {
+  width: 50vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.box {
+  padding: 20px;
+  margin: 0 5px 0 5px;
+  background-color: transparent;
+  width: 30vw;
+  height: auto;
+  position: relative;
+}
+.minuscula{
+  color:#29B6F6 ;
+  -webkit-text-stroke: 1px #37474F;
+}
+.codencrip{
+  color:#29B6F6 ;
+  -webkit-text-stroke: 1px #37474F;
+}
+.btn {
+  padding: 5px 10px;
+  margin:5px;
+  border: 0px solid transparent;
+  color: white;
+  font-weight: bold;
+  border-radius: 0.5em;
+  cursor: pointer;
+  background: linear-gradient(to right,transparent 50%,#3498DB 50%);
+  background-size: 200%;
+  background-position: left;
+  transition: background-position 0.5s ;
+}
+.btn:hover {
+  background-position: right;
+  color: darkblue;
+  font-weight: 700;
+}
+
+.text-input {
+
+  color:  black;
+  background-color: transparent;
+  font-weight: bolder;
+  border-radius: 0.3em;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: block;
+  padding: 0.5em;
+  width: 25vw;
+  height: 4vw;
+  position: relative;
+}
+
+
+footer{
+  color:white  ;
+  -webkit-text-stroke: 1px black;
+  font-family: sans-serif;
+  position: fixed;
+  bottom: 0;
+}
+
+
+
+
